@@ -1,0 +1,74 @@
+1.  Write a simple program in HTML that displays the heading "HTML defines the content and structure of your website" on the web browser?
+ans:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+</head>
+<body>
+    <h1>HTML defines the content and structure of your website</h1>
+    
+</body>
+</html>
+2.  Explain the purpose of the comments in HTML and provide an example of how to use comments in an HTML document? 
+ans:
+    if we want to hide somethings from the webpages , we use comments. we can write comments to explain the code and provide some information about the code.
+    There are two type of comments in HTML
+    1-single line
+                 we use single line comment for one line.
+    2-multiple line 
+                 we use multiple line comment for multiple line.
+    example:
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question 2</title>
+    </head>
+    <body>
+        <!-- Mohammad Naeem -->
+        <!--Multiple line comment
+        
+        -->
+    </body>
+    </html>
+3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line, and a linkebreak.
+   Arrange these elements to create a simple web page layout?
+   ans:       
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Question 1</title>
+   </head>
+   <body>
+       <h1>GOVERMENT POLYTECNIC BIJNOR</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi a veniam animi placeat in repellendus aspernatur iste sint quod, esse numquam? Quo sit pariatur delectus sint officiis dicta placeat unde vero perspiciatis porro error nostrum ipsum temporibus officia dolorem quibusdam, fugit consequatur! Tempore doloremque natus sed, inventore quia fugit repellat pariatur possimus ipsum repudiandae quam nemo repellendus vel odio soluta quo officiis? Excepturi adipisci est blanditiis aut odit veniam modi officia tempore libero, autem error soluta obcaecati rerum quia tenetur inventore quidem, nobis tempora distinctio facere assumenda voluptas deleniti. Illo excepturi temporibus minima vero asperiores quas illum modi, id repudiandae!</p>
+       <hr>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur alias libero, accusamus ducimus ipsam dolor ea omnis nisi accusantium! Repellendus obcaecati, labore cum distinctio sit earum molestiae eveniet iste?</p>
+       <br>
+       <h3>THANK YOU FOR  YOUR PRECIOUS TIME</h3>
+   </body>
+   </html>
+4.  Write a short note on a Tag and Element with an example?
+ans:
+    Tag:
+        tag is the building block of the website that provides the instruction to browser.
+        example: <h1> </h1> //h1 is a tag that is made up of opening and closing tag
+    Element:
+           in html when we write opening tag ,content and closing then it is called HTMl Element
+           example:   <h1>Mohammad Naeem</h>
+5.  What is the DOCTYPE Declaration in HTML?            
+ans:
+    DOCTYPE tag tells the browser about the document type.
+    <DOCTYPE html> //it is declaration of DOCTYPE in html
+
+
+    
+    
+        
+                 
