@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Sign Up Form</h1>
+    <fieldset style="background-color:antiquewhite">
+        <legend>Sign Up</legend>
+        <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label for="first_name">First Name : </label>
+                </td>
+                <td>
+                    <input type="text" name="first_name" id="first_name" required placeholder="Enter your first name" minlength="3">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="last_name">Last Name : </label>
+                </td>
+                <td>
+                    <input type="text" name="last_name" id="last_name" placeholder="Enter your last name" minlength="3">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email : </label>
+                </td>
+                <td><input type="text" name="email" id="email" required placeholder="Enter your email">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password : </label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password" required placeholder="Create new password" minlength="8">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="confirm_password">Confirm Password : </label>
+
+                </td>
+                <td>
+                    <input type="password"  name="confirm_password" id="confirm_password" required placeholder="Confirm password" minlength="">
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age : </label>
+                </td>
+                <td>
+                    <input type="number" name="age" id="age" min="0" max="150" required placeholder="Enter age">
+                </td>
+                
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender : </label>
+                </td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" required>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" required>
+                    
+                </td>
+                <tr>
+                    <td>
+                        <b>agree to terms and conditions </b>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="checkbox" required>
+                    </td>
+
+                </tr>
+            </tr>
+
+
+        </table>
+        <input type="submit" value="sign up">
+        </form>
+        
+    </fieldset>
+
+    <h1>Sign In Form</h1>
+    <fieldset style="background-color:antiquewhite;">
+        <legend>Sign in</legend>
+        <form action="" method="get">
+        <table>
+            <tr>
+                <td>
+                    <label for="email_for_sign_in">Email : </label>
+
+                </td>
+                <td>
+                    <input type="email" name="email" id="email_for_sign_in" required placeholder=" Plese enter your email">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="password_for_sign_in">Password : </label>
+
+                </td>
+                <td>
+                    <input type="password" name="password" id="password_for_sign_in" required placeholder=" Plese enter your password" minlength="8">
+                </td>
+                
+                
+            </tr>
+            
+        </table>
+        <input type="submit" value="sign in">
+        </form>
+    </fieldset>
+    
+</body>
+</html>
