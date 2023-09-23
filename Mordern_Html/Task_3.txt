@@ -1,0 +1,16 @@
+Accessibility:
+             Accessibility in HTML refers to the practice of designing and coding web content in a way 
+             that ensures it can be easily accessed, understood and interacted  with by people of diverse 
+             abilities,including those with disabilities.
+Why it's essential:
+                  .if we want to make our webpage easily usable then we will have to make our page with Accessibility
+                  .To identify Accessibility issues
+                  .To meet accssibilty standards.
+                  .To improve usability
+Benefits:
+        1 our websites look good.
+        2 it can be accessed easily.
+        3 it is easy for SEO to find the websites.
+        4 it can be interacted with by people of diverse abilities and also those with disabilities;
+
+                  

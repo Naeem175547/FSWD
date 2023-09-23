@@ -1,0 +1,9 @@
+HTML Entitis
+if we want to write special charactor or symbol we use HTML Entitis . it provides us the special charactor and symbol.
+The html Entitis are strings of text that start with an ampresand symbol(&) and end with a samicolon;
+Five commonly used Entitis:
+1. &amp it gives the & symbol
+2. &copy it gives @ symbol
+3. &gt it gives > symbol
+4. &lt it gives < symbol
+5. &trage it gives trade marks symbol.

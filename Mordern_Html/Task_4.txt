@@ -1,0 +1,11 @@
+There are three way by which we can improve Accessibility
+1:
+  image alternative text = if our image does not open it will dispaly alternative text about image;
+2:
+  To use sementics tag properly = if we want to improve accessibilty, we shoud use sementics tags properly.
+3:
+  Making links descriptive
+4:
+  To use accssibilty in form = use label or aria-label for input field and fieldset to improve Accessibility
+
+  
