@@ -1,0 +1,8 @@
+Benefits of Using meta Tags : 
+1. we can give the brief description by using meta tag.
+2. we can give the information about author by using this.                            
+3. we can set page refresh and set url .
+4. we can set charset for charactor encoding.
+5 it helps us for SEO.
+                             
+                           
