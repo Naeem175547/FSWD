@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_3</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-image: repeating-linear-gradient(30deg,rgb(37, 113, 164),rgb(204, 52, 204) 20%,black 20%);
+        }
+        .form_container{
+            background-color: cornflowerblue;
+           
+            
+
+        }
+        
+        .form_label{
+            text-align: right;
+            color:rgb(14, 226, 226)
+            
+        }
+        input{
+            color:rgb(24, 135, 220);
+            background-color: rgb(105, 24, 136);
+            
+        }
+        label[for="male"]{
+            color:green;
+        }
+        label[for="female"]{
+            color:green;
+        }
+        b{
+            color:red;
+            opacity: 0.4;
+        }
+        #sumbit:hover{
+            font-size: 16px;
+
+        }
+        ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+       
+
+
+    </style>
+</head>
+<body>
+    <fieldset class="form_container">
+        <legend>Sign Up</legend>
+        <form action="" class="form">
+        <table>
+            <tr>
+                <td class="form_label">
+                    <label for="first_name">First Name : </label>
+                </td>
+                <td>
+                    <input type="text" name="first_name" id="first_name" required placeholder="Enter your first name" minlength="3">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="form_label">
+                    <label for="last_name">Last Name : </label>
+                </td>
+                <td>
+                    <input type="text" name="last_name" id="last_name" placeholder="Enter your last name" minlength="3">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="form_label">
+                    <label for="email">Email : </label>
+                </td>
+                <td><input type="text" name="email" id="email" required placeholder="Enter your email">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="form_label">
+                    <label for="password">Password : </label>
+                </td>
+                <td class="form_label">
+                    <input type="password" name="password" id="password" required placeholder="Create new password" minlength="8">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="form_label">
+                    <label for="confirm_password">Confirm Password : </label>
+
+                </td>
+                <td class="form_label">
+                    <input type="password"  name="confirm_password" id="confirm_password" required placeholder="Confirm password" minlength="">
+
+                </td>
+
+            </tr>
+            <tr>
+                <td class="form_label">
+                    <label for="age">Age : </label>
+                </td>
+                <td>
+                    <input type="number" name="age" id="age" min="0" max="150" required placeholder="Enter age">
+                </td>
+                
+
+            </tr>
+            <tr>
+                <td class="form_label">
+                    <label for="gender">Gender : </label>
+                </td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" required>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" required>
+                    
+                </td>
+                <tr>
+                    <td>
+                        <b>agree to terms and conditions </b>
+                    </td>
+                    <td id="checkbox">
+                        <input type="checkbox" name="checkbox" required>
+                    </td>
+
+                </tr>
+            </tr>
+
+
+        </table>
+        <input type="submit" value="sign up" id="sumbit">
+        </form>
+        
+    </fieldset>
+
+    
+</body>
+</html>
