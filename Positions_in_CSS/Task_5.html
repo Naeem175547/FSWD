@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        .container{
+            
+            width: 700px;
+            height: 500px;
+            border: 2px;
+            background-color: aqua;
+            margin: auto;
+            border:2px solid black;
+            /* position: relative; */
+            text-align: center;
+            position: relative;
+        }
+        
+        .item{
+            width: 100px;
+            height: 100px;
+            position:absolute;
+            
+            
+            
+            
+            
+            
+        }
+        .item1{
+            background-color: red;
+            z-index: 1;
+        }
+        .item2{
+            background-color: violet;
+        }
+        .item3{
+            background-color: tomato;
+            z-index: 2;
+        }
+        .item4{
+            background-color: chartreuse;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+            <div class="item item1">1
+                
+            
+            </div>
+            <div class="item item2">2</div>
+            <div class="item item3">3</div>
+            <div class="item item4">4</div>
+    
+        
+    </div>
+    <dl>
+        <dt>z-index</dt>
+        <dd>
+            if we give position relative , fixed and  absolute to any element and any case elements override one another then to set order we use z-index property.
+        </dd>
+    </dl>
+    
+</body>
+</html>

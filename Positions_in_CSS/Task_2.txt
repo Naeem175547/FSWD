@@ -1,0 +1,12 @@
+Relative Positioning:
+
+Relative positioning refers to positioning elements relative to their normal position in the document flow.
+ In this method, elements are moved from their default position based on their relationships with other elements.
+
+
+
+Absolute Positioning:
+
+Absolute positioning involves placing an element at a specific location on the page, usually based on
+ coordinates (top, left, right, bottom) relative to its nearest positioned ancestor 
+ (an ancestor element that has a non-static position, such as relative, absolute, or fixed).
