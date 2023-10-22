@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(2, 2, 45);
+            margin: 150px 40px;
+            
+        }
+        .pricing_section{
+            /* width: 962px; */
+           display:flex;
+           padding: 32px 48px;
+           background: #FAF2FD;
+           justify-content: center;
+           gap:40px;
+           
+           
+           
+           
+           
+           
+            
+           
+
+        }
+        
+        .pricing_card_one{
+            background-color:#FFFFFF ;
+           
+            box-shadow: 0px 1px 10px 0 #00000040;
+            /* flex-grow: 1; */
+            border-radius: 8px;
+            color:#192447;
+            
+
+
+        }
+        .pricing_card_two{
+            
+            
+            
+            background-color:#202842;
+            /* flex-grow: 1; */
+            border-radius: 8px;
+            color:#ffffff;
+
+            
+            
+            
+        }
+        .pricing_card_three{
+            background-color: #FFFFFF;
+            /* flex-grow: 1; */
+            border-radius: 8px;
+            color:#192447;
+           
+            
+            
+            
+        }
+        .card_details{
+            display: flex;
+            flex-direction: column;
+            padding: 32px;
+            line-height: 30px;
+            font-size: 20px;
+            
+            
+            
+            
+
+
+        }
+        .card_details ul{
+            list-style-position: inside;
+            
+        }
+        .card_details .btn{
+            padding: 8px 24px;
+            
+            
+            
+        }
+        .card_details .btn button{
+            padding: 8px 24px;
+            border-radius:50px;
+        }
+        .pricing_card_one button{
+            background:#192447;
+            color:#ffffff;
+        }
+        .pricing_card_two button{
+            background:#ffffff;
+            color:#1C1C2C;
+        }
+        .pricing_card_three button{
+            background:#192447;
+            color:#ffffff;
+        }
+        @media screen and (max-width:850px){
+            .pricing_section{
+                flex-direction: column;
+            }
+
+        }
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="pricing_section">
+        <section class="pricing_card_one">
+            <div class="card_details">
+                <div class="card_detail">
+                    <div class="card_header">
+                        <h1>Free Plan</h1>
+                        <span>For Personal</span>
+                        <h1>$0</h1>
+
+                    </div>
+                    
+                    <ul class="plan_detail">
+                        <li>1 users</li>
+                        <li>4 Web mails</li>
+                        <li>Responsive Website</li>
+                        <li>Free SSL</li>
+
+                    </ul>
+
+
+                </div>
+                <div class="btn">
+                    <button>Subscribe now</button>
+
+                </div>
+            </div>
+            
+
+        </section>
+        <section class="pricing_card_two">
+            <div class="card_details">
+                <div class="card_detail">
+                    <div class="card_header">
+                        <h1>Basic Plan</h1>
+                        <span>For small business</span>
+                        <h1>$29</h1>
+
+                    </div>
+                    <ul class="plan_detail">
+                        <li>4 users</li>
+                        <li>10 Web mails</li>
+                        <li>Responsive Website</li>
+                        <li>Free SSL</li>
+
+                    </ul>
+
+
+                </div>
+                <div class="btn">
+                    <button>Subscribe now</button>
+
+                </div>
+            </div>
+            
+            
+
+        </section>
+        <section class="pricing_card_three">
+            <div class="card_details">
+                <div class="card_detail">
+                    <div class="card_header">
+                        <h1>Pro Plan</h1>
+                        <span>For Enterprise</span>
+                        <h1>$49</h1>
+
+                    </div>
+                    <ul class="plan_detail">
+                        <li>Unlimited users</li>
+                        <li>Unlimited Web mails</li>
+                        <li>Responsive Website</li>
+                        <li>Free SSL + SEO</li>
+
+                    </ul>
+
+
+                </div>
+                <div class="btn">
+                    <button>Subscribe now</button>
+
+                </div>
+            </div>
+            
+            
+        </section>
+    </div>
+    
+    
+</body>
+</html>

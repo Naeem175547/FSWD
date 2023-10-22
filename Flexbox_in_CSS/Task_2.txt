@@ -1,0 +1,21 @@
+justify-content:
+          This property controls the alignment of flex items along the main axis of the flex container.
+
+align-items:
+         This property controls the alignment of flex items along the cross axis of the flex container.
+flex-direction:
+         This property defines the direction in which flex items are placed in the flex container.
+          
+flex-wrap:
+        This property controls whether flex items should wrap to a new line if they overflow the container.
+
+gap:
+The grid-gap property has two sub-properties:
+
+grid-row-gap: This property sets the size of the gap between rows in the grid.
+
+grid-column-gap: This property sets the size of the gap between columns in the grid.
+
+You can use these properties to define the spacing between rows and columns independently or use the shorthand grid-gap property to set both at once.
+
+Here's an example of how to use grid-gap:
