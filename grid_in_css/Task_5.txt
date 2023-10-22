@@ -1,0 +1,8 @@
+Task:
+Solution:
+justify-items:
+             if we want to move grid-items to x-axis then we use justify-items;
+             justify-items:center;
+justify-self:
+             if we want to move only one grid-item to x-axis then we use justify-self;
+             justify-self:center;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        .container{
+            width: 40%;
+
+            
+            border:1px solid black;
+            
+            padding: 10px;
+            display: grid;
+            /* grid-auto-flow: column; */
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: 60px 60px;
+            
+            
+
+            grid-gap:10px;
+
+
+
+
+        }
+        .container div{
+            line-height: 50px;
+            padding-left: 20px;
+            border-radius: 5px;
+
+        }
+        .container div:nth-child(2n-1){
+            background-color: rgb(61, 58, 58);
+        }
+        .container div:nth-child(2n){
+            background:rgb(195, 183, 206);
+        }
+        .container div:nth-child(1),.container div:nth-child(2){
+            grid-row:2/3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      
+
+    <div class="box box1">1</div>
+
+    <div class="box box2">2</div>
+
+    <div class="box box3">3</div>
+
+    <div class="box box4">4</div>
+
+    <div class="box box5">5</div>
+
+    <div class="box box6">6</div>
+
+    <div class="box box7">7</div>
+
+    <div class="box box8">8</div>
+
+</div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+Task 3:
+Solution:
+grid-auto-row:
+             if there is some implicit grid then we can define row size for them.
+             example:
+                    grid-auto-row:200px 100px; 
+
+
+grid-auto-column:
+              if there is some implicit grid then we can define column size for them.
+              example:
+                     grid-auto-column:100px 200px;
+                           
+
+
