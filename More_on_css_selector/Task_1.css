@@ -1,0 +1,42 @@
+ul > li a {
+    color:red;
+}
+nav > h2:first-of-type{
+    color:green;
+    background-color: aquamarine;
+}
+ul+p{
+    color:rgb(249, 42, 0);
+    
+}
+a[href]{
+    color:red;
+    text-decoration: none;
+
+}
+a[class="active"]{
+    color:violet;
+    text-decoration:underline dotted black;
+    /* text-underline-offset: 10px; */
+    text-underline-position:above;
+}
+a[target="_self"]{
+   background:grey;
+}
+p:last-of-type::after{
+    content:"...";
+    
+}
+::marker{
+    color:red;
+}
+:nth-of-type(2)::first-letter{
+    color:red;
+    font-size: 30px;
+
+}
+
+
+
+
+
