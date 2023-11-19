@@ -1,0 +1,20 @@
+String:
+
+Description: Represents a sequence of characters and is used for storing text.
+Example: let message = "Hello, World!";
+
+Number:
+Description: Represents numeric values, including integers and floating-point numbers.
+Example: let count = 10;
+
+Boolean:
+Description: Represents a logical value, either true or false.
+Example: let isRaining = false;
+
+Undefined:
+Description: Represents a variable that has been declared but not assigned a value.
+Example: let undefinedVariable;
+
+Null:
+Description: Represents the intentional absence of any object value.
+Example: let nullValue = null;
