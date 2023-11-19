@@ -1,0 +1,23 @@
+Operator Precedence in JavaScript determines the order in which operators are evaluated in an expression. Operators with higher precedence are evaluated first. 
+For example, in the expression a + b * c, multiplication (*) has higher precedence than addition (+), so b * c is evaluated first.
+
+Operator Associativity comes into play when there are operators with the same precedence. It defines the order in which operations are performed. For example,
+ if you have two operators with left associativity, they are evaluated from left to right.
+
+Understanding these concepts is crucial for writing code that behaves as expected. It helps in avoiding errors and ensures that expressions are evaluated in
+ the intended order. For example:
+
+javascript code
+let result = 5 + 10 * 2;
+console.log(result);  // Output: 25 (because multiplication has higher precedence)
+
+let x = y = 10;
+console.log(x);  // Output: 10 (assignment has right-to-left associativity)
+console.log(y);  // Output: 10
+Explicitly using parentheses can also be important to override the default precedence or associativity:
+
+javascript code
+let result = (5 + 10) * 2;  // Use parentheses to enforce addition before multiplication
+console.log(result);        // Output: 30
+In summary, understanding operator precedence and associativity is vital for writing code that accurately reflects the desired logic and for avoiding unexpected 
+behavior in expressions. It allows developers to control the order of evaluation and enhance the clarity and predictability of their code.

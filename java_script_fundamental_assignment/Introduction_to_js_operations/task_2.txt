@@ -1,0 +1,25 @@
+
+Operators in JavaScript can be categorized based on their functionality into:
+
+Arithmetic Operators:
+
+Examples: + (addition), - (subtraction), * (multiplication), / (division), % (modulo).
+Comparison Operators:
+
+Examples: == (equality), === (strict equality), != (inequality), !== (strict inequality), < (less than), > (greater than).
+
+Logical Operators:
+
+Examples: && (logical AND), || (logical OR), ! (logical NOT).
+Assignment Operators:
+
+Examples: = (assignment), += (addition assignment), -= (subtraction assignment), *=(multiplication assignment),
+/=` (division assignment).
+Unary Operators:
+
+Examples: ++ (increment), -- (decrement), typeof (returns a string indicating the type of an operand).
+Ternary (Conditional) Operator:
+
+Example: condition ? expr1 : expr2 (returns expr1 if condition is true, and expr2 otherwise).
+These operators enable developers to perform a wide range of operations, from basic arithmetic calculations to complex
+ logical evaluations and assignments, contributing to the versatility and expressiveness of JavaScript code.
